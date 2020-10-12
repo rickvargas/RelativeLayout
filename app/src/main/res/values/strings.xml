@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+    <string name="textoA">a</string>
+    <string name="textoB">b</string>
+    <string name="textoC">c</string>
+    <string name="textoD">d</string>
+    <string name="textoE">e</string>
+    <string name="textoF">f</string>
+    <string name="textoG">g</string>
+    <string name="textoH">h</string>
+    <string name="textoI">i</string>
+</resources>

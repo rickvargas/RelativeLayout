@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    @TODO Find way to remove margin/border-->
+
+    <Button
+        android:id="@+id/letraA"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#ffff40"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/textoA" />
+
+    <Button
+        android:id="@+id/letraB"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/letraA"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#4cd9eb"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/textoB" />
+
+    <Button
+        android:id="@+id/letraC"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="#ffbc40"
+        android:text="@string/textoC"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/letraD"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#00fe0f"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/textoD" />
+
+    <Button
+        android:id="@+id/letraE"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/letraD"
+        android:backgroundTint="#b0b0b0"
+        android:text="@string/textoE"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/letraF"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_above="@id/letraG"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF69B4"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/textoF" />
+
+    <Button
+        android:id="@+id/letraG"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/letraH"
+        android:backgroundTint="#ffbc40"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/textoG" />
+
+    <Button
+        android:id="@+id/letraH"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@id/letraF"
+        android:layout_toEndOf="@id/letraF"
+        android:backgroundTint="#4CAF50"
+        android:gravity="center_horizontal|top"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/textoH" />
+
+    <Button
+        android:id="@+id/letraI"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/letraC"
+        android:layout_toEndOf="@id/letraC"
+        android:backgroundTint="#E91E63"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text="@string/textoI" />
+</RelativeLayout>
